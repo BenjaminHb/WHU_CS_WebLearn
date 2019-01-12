@@ -19,7 +19,7 @@ if __name__ == '__main__':
         if input_num == 0:
             break
         input_nums = input().split(' ')
-        input_nums = list(map(lambda x : int(x), input_nums))
+        input_nums = list(map(lambda x: int(x), input_nums))
         num = max(input_nums)
 
         result = num % 2006
